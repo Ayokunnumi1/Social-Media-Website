@@ -35,6 +35,22 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--backgroundColor);
+  background-color: var(--backgroundColor);
   overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neonBlue);
+  border: 3px solid red;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.social-media-logo {
+  width: 150px;
 }
