@@ -35,11 +35,20 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--backgroundColor);
+  /* background-color: var(--backgroundColor); */
+  background-color: var(--neonBlue);
   overflow-x: hidden;
 }
 
+.desktop-navbar-container {
+  display: none;
+}
+
 @media screen and (min-width: 750px) {
+  .mobile-navbar-container {
+    display: none;
+  }
+
   .desktop-navbar-container {
     display: flex;
     flex-direction: row;
@@ -72,8 +81,8 @@ body {
   }
 
   .rounded-img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 3px solid var(--neonBlue);
   }
@@ -95,7 +104,7 @@ body {
   }
 
   .search-input {
-    padding: 5px;
+    padding: 8px;
     width: 200px;
   }
 
