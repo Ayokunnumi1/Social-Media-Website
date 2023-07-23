@@ -35,13 +35,38 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background-color: var(--backgroundColor); */
-  background-color: var(--neonBlue);
-  overflow-x: hidden;
+  background-color: var(--backgroundColor);
 }
 
 .desktop-navbar-container {
   display: none;
+}
+
+.mobile-navbar-container {
+  border: 3px solid red;
+  background-color: var(--neonBlue);
+  padding: 1px 12px 10px 12px;
+}
+
+.mobile-social-book-logo {
+  width: 200px;
+}
+
+.mobile-hamburger-icon {
+  width: 50px;
+}
+
+.rounded-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid var(--neonBlue);
+}
+
+.mobile-second-navbar {
+  display: flex;
+  flex-direction: row;
+
 }
 
 @media screen and (min-width: 750px) {
@@ -78,13 +103,6 @@ body {
 
   .desktop-nav-icon-left {
     height: 30px;
-  }
-
-  .rounded-img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 3px solid var(--neonBlue);
   }
 
   .desktop-nav-right {
