@@ -56,6 +56,7 @@ body {
 }
 
 html {
+  /* 62.5% of 16px(default font size of browser) results to 10px, so 62.5% is 10px */
   font-size: 62.5%;
 }
 
@@ -69,7 +70,8 @@ html {
 .mobile-navbar {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 1.5rem;
+
   /* justify-content: center; */
   align-items: center;
   background-color: var(--neonBlue);
@@ -81,28 +83,28 @@ html {
 .mobile-navbar-img-container {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 1rem;
 }
 
 @media screen and (min-width: 370px) {
   .mobile-navbar-img-container {
-    gap: 17px;
+    gap: 1.7rem;
   }
 }
 
 @media screen and (min-width: 390px) {
   .mobile-navbar {
-    gap: 30px;
+    gap: 3rem;
   }
 
   .mobile-navbar-img-container {
-    gap: 19px;
+    gap: 1.9rem;
   }
 }
 
 @media screen and (min-width: 410px) {
   .mobile-navbar {
-    gap: 40px;
+    gap: 4rem;
   }
 }
 
@@ -114,7 +116,7 @@ html {
   .desktop-navbar-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--neonBlue);
     padding: 0 40px 0 40px;
@@ -153,6 +155,7 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 7px;
+
     /* border: 3px solid red; */
   }
 
