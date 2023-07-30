@@ -71,9 +71,8 @@ html {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
-
-  /* justify-content: center; */
   align-items: center;
+  justify-content: center;
   background-color: var(--neonBlue);
   padding: 5px 15px 5px 15px;
   width: 100%;
@@ -86,29 +85,75 @@ html {
   gap: 1rem;
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 320px) {
+  .mobile-navbar {
+    gap: 0.5rem;
+    padding: 2px;
+  }
+
   .mobile-navbar-img-container {
-    gap: 1.7rem;
+    gap: 0.5rem;
   }
 }
 
+@media screen and (min-width: 360px) {
+  .mobile-navbar {
+    /* padding: 5px 10px 5px 10px; */
+    gap: 1rem;
+  }
+
+  .mobile-navbar-img-container {
+    gap: 1.5rem;
+  }
+}
+
+/* @media screen and (min-width: 370px) {
+  .mobile-navbar-img-container {
+    gap: 1.7rem;
+  }
+
+  .mobile-navbar {
+    padding: 5px 15px 5px 15px;
+  }
+} */
+
+/*
 @media screen and (min-width: 390px) {
   .mobile-navbar {
     gap: 3rem;
+    padding: 5px 15px 5px 15px;
   }
 
   .mobile-navbar-img-container {
     gap: 1.9rem;
   }
-}
+} */
 
-@media screen and (min-width: 410px) {
+@media screen and (min-width: 400px) {
   .mobile-navbar {
     gap: 4rem;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 470px) {
+  .mobile-navbar {
+    gap: 10rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .mobile-navbar {
+    gap: 12rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .mobile-navbar-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
   .mobile-navbar-container {
     display: none;
   }
@@ -155,22 +200,22 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 7px;
-
-    /* border: 3px solid red; */
   }
 
   .desktop-search-bar {
     border: 1px solid var(--whiteColor);
     border-radius: 40px;
     background-color: var(--backgroundColor);
-    width: 250px;
+    width: 200px;
     display: inline-flex;
     align-items: center;
+
+    /* border: 3px solid red; */
   }
 
   .search-input {
-    padding: 8px;
-    width: 200px;
+    padding: 5px;
+    width: 150px;
   }
 
   .search-icon {
