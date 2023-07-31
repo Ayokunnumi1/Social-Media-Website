@@ -192,7 +192,8 @@ html {
 
   .search-input {
     padding: 5px;
-    width: 100px;
+    width: 120px;
+    border-radius: 15px;
   }
 
   .search-icon {
@@ -219,6 +220,6 @@ html {
   }
 
   .search-input {
-    width: 150px;
+    width: 170px;
   }
 }
