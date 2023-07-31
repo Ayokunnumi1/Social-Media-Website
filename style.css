@@ -98,7 +98,6 @@ html {
 
 @media screen and (min-width: 360px) {
   .mobile-navbar {
-    /* padding: 5px 10px 5px 10px; */
     gap: 1rem;
   }
 
@@ -107,37 +106,19 @@ html {
   }
 }
 
-/* @media screen and (min-width: 370px) {
-  .mobile-navbar-img-container {
-    gap: 1.7rem;
-  }
-
-  .mobile-navbar {
-    padding: 5px 15px 5px 15px;
-  }
-} */
-
-/*
-@media screen and (min-width: 390px) {
-  .mobile-navbar {
-    gap: 3rem;
-    padding: 5px 15px 5px 15px;
-  }
-
-  .mobile-navbar-img-container {
-    gap: 1.9rem;
-  }
-} */
-
 @media screen and (min-width: 400px) {
   .mobile-navbar {
-    gap: 4rem;
+    gap: 5rem;
   }
 }
 
 @media screen and (min-width: 470px) {
   .mobile-navbar {
-    gap: 10rem;
+    gap: 7rem;
+  }
+
+  .mobile-navbar-img-container {
+    gap: 3rem;
   }
 }
 
@@ -145,15 +126,13 @@ html {
   .mobile-navbar {
     gap: 12rem;
   }
-}
 
-@media screen and (min-width: 700px) {
-  .mobile-navbar-container {
-    display: none;
+  .mobile-navbar-img-container {
+    gap: 3rem;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   .mobile-navbar-container {
     display: none;
   }
@@ -164,13 +143,13 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: var(--neonBlue);
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
   }
 
   .desktop-nav-left {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
   }
@@ -188,7 +167,7 @@ html {
 
   .desktop-nav-left-img {
     display: flex;
-    gap: 30px;
+    gap: 15px;
   }
 
   .desktop-nav-icon-left {
@@ -206,20 +185,40 @@ html {
     border: 1px solid var(--whiteColor);
     border-radius: 40px;
     background-color: var(--backgroundColor);
-    width: 200px;
+    width: 150px;
     display: inline-flex;
     align-items: center;
-
-    /* border: 3px solid red; */
   }
 
   .search-input {
     padding: 5px;
-    width: 150px;
+    width: 100px;
   }
 
   .search-icon {
     height: 15px;
     margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .desktop-navbar-container {
+    padding: 0 35px 0 35px;
+  }
+
+  .desktop-nav-left {
+    gap: 30px;
+  }
+
+  .desktop-nav-left-img {
+    gap: 30px;
+  }
+
+  .desktop-search-bar {
+    width: 200px;
+  }
+
+  .search-input {
+    width: 150px;
   }
 }
