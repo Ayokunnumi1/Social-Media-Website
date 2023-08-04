@@ -51,7 +51,7 @@
     border: 1px solid var(--whiteColor);
     border-radius: 40px;
     background-color: var(--backgroundColor);
-    width: 150px;
+    width: 200px;
     display: inline-flex;
     align-items: center;
   }
@@ -82,7 +82,7 @@
   }
 
   .desktop-search-bar {
-    width: 200px;
+    width: 250px;
   }
 
   .search-input {
